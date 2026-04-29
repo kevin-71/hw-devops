@@ -1,9 +1,8 @@
 from flask import Flask, redirect, render_template, request, url_for
 
-x = 10
+a = 8
 app = Flask(__name__)
 
-# In-memory database
 items = []
 
 @app.route('/')
